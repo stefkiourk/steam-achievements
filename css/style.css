@@ -1,0 +1,46 @@
+.noAchievements{
+
+	opacity: 0.4;
+
+}
+
+img{
+
+	border:1px solid rgba(255,255,255,0.5);
+	outline:1px solid rgba(0,0,0,0.2);
+	margin: 10px;
+	
+}
+
+body{
+
+    text-align: center;
+	
+}
+
+#main, #loader{
+
+	top: 10px;
+	left:220px;
+	position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 1250px;
+		
+
+}
+
+ul{
+
+	list-style-type: none;
+
+}
+
+#user{
+
+	position: absolute;
+	left: 50px;
+	width: 200px;
+	height: 50px;
+
+}
