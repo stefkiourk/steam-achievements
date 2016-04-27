@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <head>
-	
 	<meta charset="UTF-8" />
 	<title> Steam Achievements </title>
 	<link rel="shortcut icon" href="img/favicon.ico" />
@@ -15,9 +14,7 @@
 	<script type="text/javascript">
 		hs.align = 'center';
 	</script>
-
 </head>
-
 <body>
 
 <div id="loader">
@@ -30,18 +27,11 @@
 username: <input type="text" name="firstname" id="data" value="tomobot"><input type="submit" value="Go"><br>
 <button type="button" id="hideme">Hide games with no achievements</button>
 </form>
-
 </div>
 
 <div id="main">
-	
-		
 <?php  include("php/games.php"); ?>
-
-
 </div>
-<!--End of "main" div -->
-
 
 </body>
 </html>
